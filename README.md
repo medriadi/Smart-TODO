@@ -28,6 +28,9 @@ Once the application is running, you can access it through your web browser at `
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
+## Authors
+Mohamed Riadi - [Github](https://github.com/medriadi)
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
