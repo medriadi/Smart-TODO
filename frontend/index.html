@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Todo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- FullCalendar CSS -->
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css' rel='stylesheet' />
+    <!-- FullCalendar JS -->
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js'></script>
+</head>
+<body>
+    <header>
+        <h1>Smart Todo Application</h1>
+    </header>
+    <main>
+        <section id="task-form">
+            <input type="text" id="task-title" placeholder="Enter task title" required>
+            <textarea id="task-desc" placeholder="Enter task description"></textarea>
+            <input type="datetime-local" id="task-deadline" placeholder="Set task deadline">
+            <button id="add-task-btn">Add Task</button>
+        </section>
+        <section id="task-list">
+            <h2>Task List</h2>
+            <ul id="tasks">
+                <!-- Task items will be dynamically inserted here -->
+            </ul>
+        </section>
+        <div id="notification-bell">
+            <span id="bell-icon">🔔</span>
+            <span id="notification-count">0</span>
+        </div>
+        <button id="view-calendar-btn">View Calendar</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Smart Todo Application. All rights reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
